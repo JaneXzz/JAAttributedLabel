@@ -23,20 +23,20 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/JaneXzz/JAAttributedLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  # s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JaneXzz' => 'xuzz@ushareit.com' }
   s.source           = { :git => 'https://github.com/JaneXzz/JAAttributedLabel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JAAttributedLabel/Classes/**/*'
-  
+s.source_files = 'JAAttributedLabel/Classes/*.{h,m}'
+
   # s.resource_bundles = {
   #   'JAAttributedLabel' => ['JAAttributedLabel/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'JAAttributedLabel/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

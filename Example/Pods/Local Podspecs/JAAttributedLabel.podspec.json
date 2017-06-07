@@ -1,0 +1,22 @@
+{
+  "name": "JAAttributedLabel",
+  "version": "0.1.0",
+  "summary": "A short description of JAAttributedLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JaneXzz/JAAttributedLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JaneXzz": "xuzz@ushareit.com"
+  },
+  "source": {
+    "git": "https://github.com/JaneXzz/JAAttributedLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JAAttributedLabel/Classes/**/*"
+}

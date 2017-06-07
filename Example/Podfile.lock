@@ -1,0 +1,16 @@
+PODS:
+  - JAAttributedLabel (0.1.0)
+
+DEPENDENCIES:
+  - JAAttributedLabel (from `../`)
+
+EXTERNAL SOURCES:
+  JAAttributedLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JAAttributedLabel: 3327ba1ee369c45fb502120f40ce1ae0fe911518
+
+PODFILE CHECKSUM: cb4ab292c6e098ec42fcb9b363a06f84e87fba37
+
+COCOAPODS: 1.2.1.beta.1
